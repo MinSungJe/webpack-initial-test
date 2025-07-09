@@ -6,7 +6,9 @@ const style = css`
   font-size: 24px;
 `;
 
-const App = () => <div className={style}>Hello Emotion + React + TypeScript!</div>;
+const App = () => (
+  <div className={style}>Hello Emotion + React + TypeScript!</div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(<App />);
