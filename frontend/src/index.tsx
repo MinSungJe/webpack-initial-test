@@ -1,5 +1,5 @@
-import ReactDOM from 'react-dom/client';
 import { css } from '@emotion/css';
+import ReactDOM from 'react-dom/client';
 
 const style = css`
   color: hotpink;
